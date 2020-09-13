@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as NeoCoastLogo } from 'Assets/neocoast-logo.svg';
+import { ReactComponent as NeoCoastLogo } from '@Assets/neocoast-logo.svg';
 import './index.scss';
 
 const NotFound = () => (

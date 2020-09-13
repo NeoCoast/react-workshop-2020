@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import PostsList from 'Components/PostsList';
-import postsService from 'Api/posts.service';
+import PostsList from '@Components/PostsList';
+import postsService from '@Api/posts.service';
 import './index.scss';
 
 const Home = () => {

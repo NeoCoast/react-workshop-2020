@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Loader from 'Components/Loader';
-import NewPost from 'Components/NewPost';
-import postsService from 'Api/posts.service';
-import usersService from 'Api/users.service';
+import Loader from '@Components/Loader';
+import NewPost from '@Components/NewPost';
+import postsService from '@Api/posts.service';
+import usersService from '@Api/users.service';
 
 const Home = () => {
   const [loading, setLoading] = useState(false);

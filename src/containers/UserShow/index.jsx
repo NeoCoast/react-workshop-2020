@@ -7,10 +7,10 @@ import {
   Row,
   Typography,
 } from 'antd';
-import usersService from 'Api/users.service';
-import Loader from 'Components/Loader';
-import UsersList from 'Components/UsersList';
-import { ROUTES } from 'Data/constants';
+import usersService from '@Api/users.service';
+import Loader from '@Components/Loader';
+import UsersList from '@Components/UsersList';
+import { ROUTES } from '@Data/constants';
 import './index.scss';
 
 const UserShow = () => {

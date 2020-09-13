@@ -5,8 +5,8 @@ import {
   Empty,
   Row,
 } from 'antd';
-import Loader from 'Components/Loader';
-import Post from 'Components/Post';
+import Loader from '@Components/Loader';
+import Post from '@Components/Post';
 
 const PostsList = ({ loading, posts }) => {
   if (loading) return <Loader />;

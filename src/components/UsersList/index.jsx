@@ -5,7 +5,7 @@ import {
   Empty,
   Row,
 } from 'antd';
-import UserCard from 'Components/UserCard';
+import UserCard from '@Components/UserCard';
 
 const UsersList = ({ listName, users }) => {
   if (users.length === 0) return <Empty description={`No ${listName} yet`} />;
