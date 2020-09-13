@@ -102,6 +102,7 @@
       2,
       "except-parens"
     ],
-    "unicorn/filename-case": 0
+    "unicorn/filename-case": 0,
+    "react/jsx-props-no-spreading": 0
   }
 }
