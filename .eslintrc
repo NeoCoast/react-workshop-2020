@@ -1,6 +1,11 @@
 {
   "parser": "babel-eslint",
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "plugin:testing-library/recommended",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended"
+  ],
   "env": {
     "browser": true,
     "node": true,
@@ -9,7 +14,9 @@
   },
   "plugins": [
     "react",
-    "jsx-a11y"
+    "jsx-a11y",
+    "testing-library",
+    "jest-dom"
   ],
   "parserOptions": {
     "ecmaVersion": 6,
