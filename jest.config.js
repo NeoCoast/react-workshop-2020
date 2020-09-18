@@ -13,6 +13,7 @@ module.exports = {
     '@Mocks(.*)$': '<rootDir>/src/__mocks__$1',
   },
   setupFilesAfterEnv: [
+    'jest-chain',
     '<rootDir>/jest.setup.js',
   ],
 };

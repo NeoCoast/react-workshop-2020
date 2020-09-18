@@ -35,6 +35,7 @@ const NewPost = ({ users, onSubmit }) => {
               <Select
                 style={{ width: 200 }}
                 placeholder="Select an user"
+                virtual={false}
               >
                 {
                   users.map(({ id, username }) => (
@@ -50,7 +51,7 @@ const NewPost = ({ users, onSubmit }) => {
               label="Title"
               name="title"
               rules={[
-                { required: true, message: 'Please input the title of your post!' },
+                { required: true, message: 'Please input the title of the post!' },
               ]}
             >
               <Input placeholder="Title" />
@@ -60,7 +61,7 @@ const NewPost = ({ users, onSubmit }) => {
               label="Content"
               name="content"
               rules={[
-                { required: true, message: 'Please input the content of your post!' },
+                { required: true, message: 'Please input the content of the post!' },
               ]}
             >
               <Input.TextArea placeholder="Content" />
